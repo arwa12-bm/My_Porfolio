@@ -1,0 +1,10 @@
+- Acternity ui : utils file /Spotlight /tailwind.config
+-grid and dot(backgrounds)
+- npm i next-themes
+- Next.js-shadcn/ui
+-create provider file
+-call provider file in layout (defaultsystem="dark")
+-Tailwind CSS buttons
+-Floating Navbar
+-Bento Grid
+
