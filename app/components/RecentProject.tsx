@@ -9,9 +9,10 @@ const RecentProjects = () => {
 return (
 <div className="py-20" id="projects">
     <h1 className="heading">
-    A small selection of{" "}
-    <span className="text-purple">recent projects</span>
-    </h1>
+    Une petite sélection de{" "}
+    <span className="text-purple">projets récents</span>
+</h1>
+
     <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
     {projects.map((item) => (
         <div
@@ -32,7 +33,7 @@ return (
             <img
                 src={item.img}
                 alt="cover"
-                className="z-10 absolute bottom-0"
+                className="z-10 absolute bottom-0 lg:h-[24vh] h-[20vh] rotate-3 rounded-sm"
             />
             </div>
 
@@ -60,14 +61,14 @@ return (
                     transform: `translateX(-${5 * index + 2}px)`,
                     }}
                 >
-                    <img src={icon} alt="icon5" className="p-2" />
+                    <img src={icon} alt="icon5" className="p-2 " />
                 </div>
                 ))}
             </div>
 
             <div className="flex justify-center items-center">
                 <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                Check Live Site
+                    Voir le site en direct
                 </p>
                 <FaLocationArrow className="ms-3" color="#CBACF9" />
             </div>
