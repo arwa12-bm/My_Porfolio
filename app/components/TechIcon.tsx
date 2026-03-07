@@ -4,7 +4,7 @@ import { Environment, Float, useGLTF, Bounds } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
 
 const TechIcon = ({ model }: { model: any }) => {
-  const { scene } = useGLTF(model.modelPath)
+  const { scene } = useGLTF(model.modelPath)  as { scene: any };
 
   return (
     <Canvas
