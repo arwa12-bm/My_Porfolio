@@ -3,7 +3,7 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-   "rules": {
+   rules: {
     "react/no-unescaped-entities": "off"
    }
 };
