@@ -10,7 +10,7 @@
   },
   "engines": {
     "node": "24.x",
-    "npm": "9.x"
+    "npm": "11.x"
   },
   "dependencies": {
     "@react-three/drei": "^9.109.2",
@@ -26,8 +26,8 @@
     "react-lottie": "^1.2.4",
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7",
-    "three": "^0.167.1",
-    "three-globe": "^2.31.1"
+    "three": "^0.183.2",
+    "three-globe": "^2.45.0"
   },
   "devDependencies": {
     "@types/node": "^20",
