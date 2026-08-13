@@ -1,6 +1,12 @@
+"use client"
 import { skills } from '@/data'
+import dynamic from 'next/dynamic'
 import React from 'react'
-import TechIcon from './TechIcon'
+
+const TechIcon = dynamic(
+  () => import("./TechIcon"),
+  { ssr: false }
+)
 
 const Skills = () => {
     return (
@@ -29,7 +35,7 @@ const Skills = () => {
                             <div className="tech-card-animated-bg" />
                             <div className="tech-card-content">
                                 <div className="tech-icon-wrapper w-full h-full">
-                                    {/* <TechIcon model={icon} /> */}
+                                    <TechIcon model={icon} />
                                 </div>
                                 <div className="padding-x text-center w-full">
                                 <p>{icon.name}</p>
