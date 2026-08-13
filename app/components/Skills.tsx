@@ -29,7 +29,7 @@ const Skills = () => {
                             <div className="tech-card-animated-bg" />
                             <div className="tech-card-content">
                                 <div className="tech-icon-wrapper w-full h-full">
-                                    <TechIcon model={icon} />
+                                    {/* <TechIcon model={icon} /> */}
                                 </div>
                                 <div className="padding-x text-center w-full">
                                 <p>{icon.name}</p>

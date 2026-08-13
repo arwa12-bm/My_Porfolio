@@ -1,5 +1,4 @@
 "use client"
-
 import { Environment, Float, useGLTF, Bounds } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
 
